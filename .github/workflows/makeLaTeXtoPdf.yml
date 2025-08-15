@@ -42,7 +42,7 @@ jobs:
           git config --global user.name "brueckmann"
           git pull
           mv main.pdf PDF_Syllabus_PolDec_GBrueckmann.pdf
-          git add PPDF_Syllabus_PolDec_GBrueckmann.pdf
+          git add PDF_Syllabus_PolDec_GBrueckmann.pdf
           git commit -m "now renamed"
           git push
         env:
