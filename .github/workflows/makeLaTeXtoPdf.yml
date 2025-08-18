@@ -43,7 +43,7 @@ jobs:
           git pull
           mv main.pdf PDF_Syllabus_PolDec_GBrueckmann.pdf
           git add PDF_Syllabus_PolDec_GBrueckmann.pdf
-          git commit -m "now renamed"
+          git commit -m "updated_pdf_syllabus"
           git push
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
